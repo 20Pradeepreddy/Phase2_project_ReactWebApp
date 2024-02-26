@@ -1,0 +1,112 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+text-decoration:none;
+outline:none;
+}
+.nav{
+	background-color:#f8e8e8;
+	height: 50px;
+}
+.nav ul, .nav ul li{
+	list-style:none;
+	display:flex;
+	margin-left: 10px;
+	padding:0.5rem 0rem;
+	color: #702963;
+}
+.nav a{
+	color: #702963;
+	background:transparent;
+}
+.login .nav #login,.register .nav #register,.home .nav h3, .dashboard .nav #dashboard{
+	border:0.5px solid #702963;
+}
+.body{
+	padding: 3rem 3rem;
+}
+.loginform,.registerform{
+	margin-top:10px;
+}
+.registerform, .registerform h2{
+	display: grid;
+	padding: 0rem 2rem;
+}
+.register input{
+	height: 30px;
+	margin-top:5px;
+}
+#subbtn{
+	background-color:#702963;
+	border: none;
+	border-radius:3px;
+	padding:5px 6px;
+	text-align: center;
+	color: white;
+}
+.home-body{
+	margin-top:40px;
+}
+#hr1{
+	margin-top:5px;
+	width:50px;
+	height:3px;
+	background-color:#702963;
+}
+.categorylist{
+	display:flex;
+	justify-content:center;
+}
+.categorylist .categorylistimage{
+	margin-top:25px;
+	margin-right:20px;
+	/* background-image: url('study.jfif.jpg'); */
+	background-repeat: no-repeat;
+	width:200px;
+	height:200px;
+	text-align: center;
+	align:center;
+}
+.categorylistimage{
+	display:grid;
+}
+.categorylistimage a{
+	color:black;
+	font-size:11px;
+	margin-left:50px;
+	margin-top:145px;
+	background-color:white;
+	width:100px;
+	padding:8px 0px;
+	height:30px;
+}
+
+.categorylist .category{
+	margin-top:25px;
+	margin-right:20px;
+	background: transparent ;
+	background-repeat: no-repeat;
+	width:200px;
+	height:200px;
+	text-align: center;
+	align :center;
+}
+
+.categorylist img{
+	width: 200px;
+	height: 200px;
+}
+
+.category a{
+	color:black;
+	font-size:17px;
+	margin-left:50px;
+	margin-top:145px;
+	background-color:white;
+	width:100px;
+	padding:8px 0px;
+	height:30px;
+	font-weight: 600;
+	
+}

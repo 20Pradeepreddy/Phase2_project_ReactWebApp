@@ -1,0 +1,11 @@
+.addtocart img{
+    height: 25px;
+    width: 25px;
+}
+.adminui {
+    background-color: brown;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin-top: 15px;
+    color: white;
+}

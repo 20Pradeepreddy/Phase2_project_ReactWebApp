@@ -1,0 +1,67 @@
+/* styles.css */
+.login-page {
+  font-size: 24px;
+  font-weight: bold;
+  padding:10px;
+  border:2px solid brown;
+  background-clip: content-box;
+  margin-left:20px ;
+ 
+}
+.login-page:hover{
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+/* Center the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style the labels */
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style the input fields */
+input {
+  width: 200px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+/* Style the error messages */
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Style the submit button */
+button {
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.error-message{
+  text-align: center;
+}
